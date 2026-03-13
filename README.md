@@ -1,5 +1,3 @@
-# XAI_Dashboard
-4 XAI techniques unified in one framework + interactive Streamlit dashboard | SHAP · LIME · Counterfactuals | Applied to Fintech credit scoring | Python
 # 🔎 Framework de Explainable AI (XAI)
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -42,6 +40,10 @@ Modelos de ML em produção precisam ser explicáveis — por exigência regulat
 ---
 
 ## 🖥️ Dashboard Interativo
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://xaidashboard-879fp9cpmsmnjbalhee2yr.streamlit.app/#framework-de-explainable-ai)
+
+🔗 **[Acessar o Dashboard ao vivo](https://xaidashboard-879fp9cpmsmnjbalhee2yr.streamlit.app/#framework-de-explainable-ai)**
 
 O framework inclui um **dashboard Streamlit** com 5 páginas:
 
@@ -224,7 +226,7 @@ ipykernel>=6.0.0
 ## 👨‍💻 Autor
 
 **Gabriel Alessi Naumann**  
-Cientista de Dados
+Cientista de Dados Sênior
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-gabriel--alessi--naumann-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/gabriel-alessi-naumann/)
 [![GitHub](https://img.shields.io/badge/GitHub-GabrielAlessi-181717?style=flat&logo=github)](https://github.com/GabrielAlessi)
