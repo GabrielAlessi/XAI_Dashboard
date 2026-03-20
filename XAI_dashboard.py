@@ -137,7 +137,9 @@ def load_model_and_data():
 
     return model, X_train, X_test, y_test, FEATURES, explainer, shap_values, lime_explainer, auc
 
-model, X_train, X_test, y_test, FEATURES, shap_explainer, shap_values, lime_explainer, auc = load_model_and_data()
+# ── Inicialização protegida ─────────────────────────────────
+if __name__ == '__main__' or True:
+    model, X_train, X_test, y_test, FEATURES, shap_explainer, shap_values, lime_explainer, auc = load_model_and_data()
 
 # ── Sidebar ─────────────────────────────────────────────────
 with st.sidebar:
